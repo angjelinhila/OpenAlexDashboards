@@ -1,3 +1,16 @@
+## 📝 Dashboards
+
+- 🔗 **Live Dashboard**: [https://openalexdashboards.onrender.com](https://openalexdashboards.onrender.com)
+- 💻 **GitHub Repository**: [https://github.com/angjelinhila/OpenAlexDashboards](https://github.com/angjelinhila/OpenAlexDashboards)
+
+This submission includes:
+- An interactive dashboard with filters, topic modeling, citation analysis, and co-authorship network
+- Source code and dataset
+- Hosted on Render for live review
+
+To run locally, see setup instructions below.
+
+
 # Dash Research Dashboard
 
 This is an interactive data dashboard built using [Plotly Dash](https://dash.plotly.com/) to visualize research trends, topics, citations, and co-authorship networks.
