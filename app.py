@@ -6,7 +6,7 @@ import pandas as pd
 import networkx as nx
 import plotly.express as px
 import plotly.graph_objects as go
-from jupyter_dash import JupyterDash
+from dash import Dash
 from dash import dcc, html, Input, Output, dash_table
 
 # Load data
@@ -28,7 +28,7 @@ for i, author in enumerate(authors): pos[author] = (0, i)
 for i, paper in enumerate(papers): pos[paper] = (1.5, i)
 
 # Initialize app
-app = JupyterDash(__name__)
+app = Dash(__name__)
 app.layout = html.Div([
     html.H1("Research Dashboard", style={"textAlign": "center"}),
 
