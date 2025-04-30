@@ -177,4 +177,4 @@ def update_dashboard(authors_filter, topics_filter, keyword):
 
     return pub_fig, topic_fig, topic_ts, citation_ts, table_data, tooltips, author_stats.to_dict("records"), coauthor_fig, bipartite_fig
 
-app.run_server(mode="external")
+app.run(mode="external")
